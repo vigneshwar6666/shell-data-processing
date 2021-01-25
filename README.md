@@ -1,6 +1,6 @@
 # shell-data-processing cheat sheet
 ## CURL command
-curl "" -O "data.txt" is used to return the page text and output to a file.
+curl "http://shakespeare.mit.edu/john/index.html" -O "data.txt" is used to return the page text and output to a file.
 ## Most used powershell commands
 1. mkdir - To create a new directory
 2. cd - To change the directory
