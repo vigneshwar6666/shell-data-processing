@@ -15,8 +15,8 @@ curl "" -O "data.txt" is used to return the page text and output to a file.
 5. tr ' ' '\12' < returnedfile | sort | uniq -c | sort -nr > result.txt - Redirect the output to result.txt 
 
 ## Important Bash commands
-1. > To redirect the contents of your directory into a file.
-2. >> Two arrows to append rather than overwrite. 
+1. To redirect the contents of your directory into a file use >.
+2. Two arrows to append rather than overwrite use >>. 
 3. ls -  To list the contents of the default directory. 
 4. cat - To display the contents of text file.
 5. Copy in Bash is not CTRL+C as in Windows, instead use CTRL+SHIFT+C.
